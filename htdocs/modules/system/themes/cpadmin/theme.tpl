@@ -222,6 +222,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col">
+            <{include file="$theme_tpl/ux.tpl"}>
             <{include file="$theme_tpl/icons.tpl"}>
           </div>
         </div>
