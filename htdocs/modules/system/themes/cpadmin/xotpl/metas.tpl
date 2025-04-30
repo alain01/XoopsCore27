@@ -29,7 +29,10 @@
 <link rel="stylesheet" type="text/css" media="screen" href="<{xoAppUrl url='xoops.css'}>"/>
 
 <!-- Font Awesome -->
-<link rel="stylesheet" href="<{$theme_url}>/css/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="<{xoAppUrl url= 'media/font-awesome6/css/fontawesome.min.css'}>">
+<link rel="stylesheet" type="text/css" href="<{xoAppUrl url= 'media/font-awesome6/css/solid.min.css'}>">
+<link rel="stylesheet" type="text/css" href="<{xoAppUrl url= 'media/font-awesome6/css/brands.min.css'}>">
+<link rel="stylesheet" type="text/css" href="<{xoAppUrl url= 'media/font-awesome6/css/v4-shims.min.css'}>">
 
 <!-- customized header contents -->
 <{$xoops_module_header}>

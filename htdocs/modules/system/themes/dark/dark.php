@@ -99,13 +99,14 @@ class XoopsGuiDark extends XoopsSystemGui
 
         $xoTheme->addStylesheet('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:300,300i,400,400i,700,700i');
 //        $xoTheme->addStylesheet('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+        $xoTheme->addStylesheet('media/font-awesome6/css/fontawesome.min.css');
         $xoTheme->addStylesheet('media/font-awesome6/css/solid.min.css');
+        $xoTheme->addStylesheet('media/font-awesome6/css/brands.min.css');		
+        $xoTheme->addStylesheet('media/font-awesome6/css/v4-shims.min.css');
         $xoTheme->addStylesheet(XOOPS_ADMINTHEME_URL . '/dark/css/style.css');
         $xoTheme->addStylesheet(XOOPS_ADMINTHEME_URL . '/dark/css/dark.css', ['title' => 'dark', 'media' => 'screen']);
         //$xoTheme->addStylesheet(XOOPS_ADMINTHEME_URL . '/dark/css/silver.css', array('title' => 'silver', 'media' => 'screen'));
         //$xoTheme->addStylesheet(XOOPS_ADMINTHEME_URL . '/dark/css/orange.css', array('title' => 'orange', 'media' => 'screen'));
-
-
         $tpl->assign('lang_cp', _CPHOME);
         //start system overview
         //$tpl->assign('lang_xoops_version', XOOPS_VERSION);
